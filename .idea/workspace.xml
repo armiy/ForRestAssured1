@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e33e8e3-806b-49e8-bf2f-2b65cd8602ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/APIEndPoints/EndpointsBooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/APIEndPoints/EndpointsUsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/APIEndPoints/Routes_Project2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/APIPayload/BooksPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/APIPayload/UserPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/APITest/TestBooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/APITest/TestUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/APIEndPoints/EndpointsUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/APIEndPoints/RestUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/APIPayload/UserPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/APIPayload/UserPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/APITest/TestUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/APITest/TestUsers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +48,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.TestUsers">
     <configuration name="TestBooks" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssured_Project2" />
       <extension name="coverage">
@@ -77,8 +66,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestUsers" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured_Project2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="APITest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="APITest" />
+      <option name="MAIN_CLASS_NAME" value="APITest.TestUsers" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUsers.testCreateUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured_Project2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="APITest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="APITest" />
+      <option name="MAIN_CLASS_NAME" value="APITest.TestUsers" />
+      <option name="METHOD_NAME" value="testCreateUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestUsers" />
+        <item itemvalue="TestNG.TestUsers.testCreateUser" />
         <item itemvalue="TestNG.TestBooks" />
       </list>
     </recent_temporary>

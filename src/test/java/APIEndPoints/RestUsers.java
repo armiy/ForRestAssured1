@@ -6,30 +6,30 @@ import io.restassured.response.Response;
 
 import static io.restassured.RestAssured.given;
 
-public class EndpointsUsers {
+public class RestUsers {
 
-    public Response createUser(UserPojo payload){
+    public static Response createUser(UserPojo payload){
         Response response = given()
                 .contentType(ContentType.JSON)
                 .body(payload)
                 .when().post(Routes_Project2.postUserssUrl);
         return response;
     }
-    public Response getUser(int id){
+    public static  Response getMethoUser(int id){
         Response response =
                 given()
                         .pathParam("id",id)
                         .when().get(Routes_Project2.getUsersUrl);
         return response;
     }
-    public Response updateUser(int id, UserPojo paylood){
+    public static  Response updateUser(int id, UserPojo payload){
         Response response = given()
                 .contentType(ContentType.JSON)
                 .pathParam("id",id)
                 .when().put(Routes_Project2.putUserssUrl);
         return response;
     }
-    public Response deleteUser(int id){
+    public static  Response deleteUser(int id){
         Response response = given()
                 .pathParam("id",id)
                 .when().delete(Routes_Project2.deleteUserssUrl);

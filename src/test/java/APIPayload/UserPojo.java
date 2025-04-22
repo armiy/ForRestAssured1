@@ -3,11 +3,11 @@ package APIPayload;
 public class UserPojo {
 
     //pojo for User - id is auto generated in the server not the file
-    public String firstName;
-    public String lastName;
-    public String userName;
-    public String email;
-    public String phone;
+    public static String firstName;
+    public static String lastName;
+    public static String userName;
+    public static String email;
+    public static String phone;
 
     public String getFirstName() {
         return firstName;
